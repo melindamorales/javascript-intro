@@ -1,0 +1,42 @@
+
+
+.column{
+    display: inline-block;
+}
+
+.piece{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.red{
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+.yellow{
+    background-color: yellow;
+    top: 0;
+    left: 0;
+}
+
+.column-row{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
